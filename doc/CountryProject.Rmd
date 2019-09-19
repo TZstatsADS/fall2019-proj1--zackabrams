@@ -244,7 +244,9 @@ nrc_plot <- country_nrc_sub %>%
 plot(nrc_plot)
 
 ```
+
 Next, let's see if it looks different from Metal songs, like it did in the word cloud earlier
+
 ```{r echo=FALSE}
 
 metal_nrc_sub <-Metal_count %>%
